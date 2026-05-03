@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 project(music LANGUAGES CXX)
 
-find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets Multimedia)
 
 qt_standard_project_setup()
 
@@ -10,13 +10,20 @@ qt_add_executable(music
     main.cpp
     widget.cpp
     widget.h
-    widget.ui
+    gamewidget.cpp
+    gamewidget.h
+    editorwidget.cpp
+    editorwidget.h
+    chart.cpp
+    chart.h
+    note.h
 )
 
 target_link_libraries(music
     PRIVATE
         Qt::Core
         Qt::Widgets
+        Qt::Multimedia
 )
 
 install(TARGETS music
