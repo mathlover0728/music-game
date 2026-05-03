@@ -41,7 +41,6 @@ private slots:
     void onSliderMoved(int value);
     void onSaveChart();
     void onLoadChart();
-    void onAutoGenerate();
     void onTick();
 
 private:

@@ -101,10 +101,6 @@ void EditorWidget::setupUI()
     connect(m_btnLoad, &QPushButton::clicked, this, &EditorWidget::onLoadChart);
     ctrlLayout->addWidget(m_btnLoad);
 
-    m_btnAuto = new QPushButton("✨ Auto");
-    connect(m_btnAuto, &QPushButton::clicked, this, &EditorWidget::onAutoGenerate);
-    ctrlLayout->addWidget(m_btnAuto);
-
     ctrlLayout->addSpacing(10);
 
     m_btnBack = new QPushButton("← Back");
@@ -228,30 +224,6 @@ void EditorWidget::onLoadChart()
             QMessageBox::warning(this, "Error", "Failed to load chart.");
         }
     }
-}
-
-void EditorWidget::onAutoGenerate()
-{
-    if (m_chart.musicFilePath.isEmpty()) {
-        QMessageBox::warning(this, "No Music", "Please load music first.");
-        return;
-    }
-    // Generate simple beat pattern for demo
-    m_chart.notes.clear();
-    qint64 durationMs = m_player->duration();
-    if (durationMs <= 0) durationMs = 120000; // 2 min default
-    int bpm = 120;
-    qint64 beatMs = 60000 / bpm;
-    for (qint64 t = 2000; t < durationMs - 2000; t += beatMs) {
-        int track = static_cast<int>((t / beatMs) % 5);
-        bool isLong = ((t / beatMs) % 7 == 0);
-        qint64 dur = isLong ? beatMs * 2 : 0;
-        NoteColor col = ((t / beatMs) % 5 == 0) ? NoteColor::Yellow : NoteColor::Blue;
-        m_chart.notes.append(Note(track, col, t, dur));
-    }
-    m_chart.sortNotes();
-    m_lblStatus->setText(QString("Auto-generated %1 notes.").arg(m_chart.notes.size()));
-    update();
 }
 
 void EditorWidget::onTick()

@@ -24,7 +24,7 @@ GameWidget::GameWidget(QWidget *parent)
     connect(m_player, &QMediaPlayer::playbackStateChanged, this, &GameWidget::onPlaybackStateChanged);
 
     m_timer = new QTimer(this);
-    m_timer->setInterval(16); // ~60fps
+    m_timer->setInterval(16);
     connect(m_timer, &QTimer::timeout, this, &GameWidget::onTick);
 }
 
@@ -129,14 +129,7 @@ void GameWidget::onTick()
         m_lastPositionMs = pos;
     }
 
-    // Decay effects
-    for (int i = 0; i < 5; ++i) {
-        if (m_hitEffects[i] > 0) --m_hitEffects[i];
-        if (m_missEffects[i] > 0) --m_missEffects[i];
-    }
-
     checkHits();
-    checkMisses();
     update();
 }
 
@@ -144,19 +137,26 @@ void GameWidget::checkHits()
 {
     qint64 now = m_lastPositionMs;
     if (now <= 0) return;
-
     for (int i = 0; i < m_chart.notes.size(); ++i) {
         Note& note = m_chart.notes[i];
         if (note.hit || note.missed) continue;
-
+        qint64 now = m_lastPositionMs;
         qint64 diff = note.startTimeMs - now;
-
+        int track = note.track;
         if (note.isShortPress()) {
-            // Short note: check if correct key was just pressed within window
+            if (diff < -JUDGE_WINDOW_MS) {
+                note.missed = true;
+                m_combo = 0;
+                m_misses++;
+                m_holdingNoteIndex[track] = -1;
+                triggerMissEffect(track);
+                continue;
+            }
             bool keyMatch = false;
             if (note.color == NoteColor::Blue) {
-                keyMatch = m_keysJustPressed.contains(trackKeys[note.track]);
-            } else {
+                keyMatch = m_keysJustPressed.contains(trackKeys[track]);
+            }
+            else {
                 keyMatch = m_keysJustPressed.contains(Qt::Key_Space);
             }
 
@@ -165,87 +165,73 @@ void GameWidget::checkHits()
                 m_score += 10;
                 m_combo++;
                 m_hits++;
-                triggerHitEffect(note.track);
+                triggerHitEffect(track);
             }
-        } else {
-            // Long note: check start press within window to begin holding
-            if (m_holdingNoteIndex[note.track] == i) {
-                // Already holding this note - check if released early
-                bool keyHeld = false;
-                if (note.color == NoteColor::Blue) {
-                    keyHeld = m_keysPressed.contains(trackKeys[note.track]);
-                } else {
-                    keyHeld = m_keysPressed.contains(Qt::Key_Space);
-                }
-                if (!keyHeld) {
-                    // Released early -> miss
-                    note.missed = true;
-                    m_combo = 0;
-                    m_misses++;
-                    m_holdingNoteIndex[note.track] = -1;
-                    triggerMissEffect(note.track);
-                }
-            } else if (m_holdingNoteIndex[note.track] == -1 &&
-                       diff >= -JUDGE_WINDOW_MS && diff <= JUDGE_WINDOW_MS) {
-                // Start holding within window (note at or past judgment line)
-                bool keyMatch = false;
-                if (note.color == NoteColor::Blue) {
-                    keyMatch = m_keysPressed.contains(trackKeys[note.track]);
-                } else {
-                    keyMatch = m_keysPressed.contains(Qt::Key_Space);
-                }
-                if (keyMatch) {
-                    m_holdingNoteIndex[note.track] = i;
-                    m_holdingStartTime[note.track] = now;
-                }
+            continue;
+        }
+        qint64 endTime = note.startTimeMs + note.durationMs;
+        qint64 endDiff = endTime - now;
+        if (m_holdingNoteIndex[track] == -1) {
+            if (diff < -JUDGE_WINDOW_MS) {
+                note.missed = true;
+                m_combo = 0;
+                m_misses++;
+                triggerMissEffect(track);
+                continue;
             }
+
+            bool keyJustPressed = false;
+            if (note.color == NoteColor::Blue) {
+                keyJustPressed = m_keysJustPressed.contains(trackKeys[track]);
+            } else {
+                keyJustPressed = m_keysJustPressed.contains(Qt::Key_Space);
+            }
+
+            if (keyJustPressed && diff >= -JUDGE_WINDOW_MS && diff <= JUDGE_WINDOW_MS) {
+                m_holdingNoteIndex[track] = i;
+                m_holdingStartTime[track] = now;
+            }
+            continue;
+        }
+        if (m_holdingNoteIndex[track] == i) {
+            bool keyHeld = false;
+            if (note.color == NoteColor::Blue) {
+                keyHeld = m_keysPressed.contains(trackKeys[track]);
+            } else {
+                keyHeld = m_keysPressed.contains(Qt::Key_Space);
+            }
+
+            if (endDiff < -JUDGE_WINDOW_MS) {
+                note.missed = true;
+                m_combo = 0;
+                m_misses++;
+                m_holdingNoteIndex[track] = -1;
+                triggerMissEffect(track);
+                continue;
+            }
+
+            if (!keyHeld && endDiff > JUDGE_WINDOW_MS) {
+                note.missed = true;
+                m_combo = 0;
+                m_misses++;
+                m_holdingNoteIndex[track] = -1;
+                triggerMissEffect(track);
+                continue;
+            }
+
+            if (keyHeld && endDiff >= -JUDGE_WINDOW_MS && endDiff <= JUDGE_WINDOW_MS) {
+                note.hit = true;
+                m_score += 10;
+                m_combo++;
+                m_hits++;
+                m_holdingNoteIndex[track] = -1;
+                triggerHitEffect(track);
+            }
+            continue;
         }
     }
     // Clear just-pressed keys so each press only hits one note
     m_keysJustPressed.clear();
-}
-
-void GameWidget::checkMisses()
-{
-    qint64 now = m_lastPositionMs;
-    if (now <= 0) return;
-
-    for (int i = 0; i < m_chart.notes.size(); ++i) {
-        Note& note = m_chart.notes[i];
-        if (note.hit || note.missed) continue;
-
-        if (note.isShortPress()) {
-            // Miss if passed judgment line + window
-            if (now > note.startTimeMs + JUDGE_WINDOW_MS) {
-                note.missed = true;
-                m_combo = 0;
-                m_misses++;
-                triggerMissEffect(note.track);
-            }
-        } else {
-            // Long note: if holding, check if tail passed
-            if (m_holdingNoteIndex[note.track] == i) {
-                qint64 tailTime = note.startTimeMs + note.durationMs;
-                if (now >= tailTime) {
-                    // Successfully held through
-                    note.hit = true;
-                    m_score += 10;
-                    m_combo++;
-                    m_hits++;
-                    m_holdingNoteIndex[note.track] = -1;
-                    triggerHitEffect(note.track);
-                }
-            } else {
-                // Not holding, miss if head passed window
-                if (now > note.startTimeMs + JUDGE_WINDOW_MS) {
-                    note.missed = true;
-                    m_combo = 0;
-                    m_misses++;
-                    triggerMissEffect(note.track);
-                }
-            }
-        }
-    }
 }
 
 void GameWidget::triggerHitEffect(int track)
