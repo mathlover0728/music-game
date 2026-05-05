@@ -1,0 +1,4518 @@
+{
+  "musicFile": "song1.wav",
+  "version": 1,
+  "notes": [
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 2437,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 2843,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 3249,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 3656,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 4062,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 4468,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 4874,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 5280,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 5687,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 6093,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 6499,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 6905,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 7312,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 7718,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 8124,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 8530,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 8937,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 9343,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 9749,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 10155,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 10561,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 10968,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 11374,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 11780,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 12186,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 12593,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 12999,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 13405,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 13811,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 14218,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 14624,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 15030,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 15436,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 15842,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 16249,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 16655,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 17061,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 17467,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 17874,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 18280,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 18686,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 19092,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 19498,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 19905,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 20311,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 20717,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 21123,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 21530,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 21936,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 22342,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 22748,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 23155,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 23561,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 23967,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 24373,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 24779,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 25186,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 25592,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 25998,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 26404,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 26811,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 27217,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 27623,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 28029,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 28436,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 28842,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 29248,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 29654,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 30060,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 30467,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 30873,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 31279,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 31685,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 32092,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 32498,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 32904,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 33310,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 33716,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 34123,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 34529,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 34935,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 35341,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 35748,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 36154,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 36560,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 36966,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 37373,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 37779,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 38185,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 38591,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 38997,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 39404,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 39810,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 40216,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 40622,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 41029,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 41435,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 41841,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 42247,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 42654,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 43060,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 43466,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 43872,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 44278,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 44685,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 45091,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 45497,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 45903,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 46310,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 46716,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 47122,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 47528,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 47935,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 48341,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 48747,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 49153,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 49559,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 49966,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 50372,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 50778,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 51184,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 51591,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 51997,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 52403,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 52809,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 53215,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 53622,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 54028,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 54434,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 54840,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 55247,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 55653,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 56059,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 56465,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 56872,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 57278,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 57684,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 58090,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 58496,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 58903,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 59309,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 59715,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 60121,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 60528,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 60934,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 61340,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 61746,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 62153,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 62559,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 62965,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 63371,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 63777,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 64184,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 64590,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 64996,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 65402,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 65809,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 66215,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 66621,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 67027,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 67433,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 67840,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 68246,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 68652,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 69058,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 69465,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 69871,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 70277,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 70683,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 71090,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 71496,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 71902,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 72308,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 72714,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 73121,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 73527,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 73933,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 74339,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 74746,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 75152,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 75558,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 75964,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 76371,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 76777,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 77183,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 77589,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 77995,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 78402,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 78808,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 79214,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 79620,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 80027,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 80433,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 80839,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 81245,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 81651,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 82058,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 82464,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 82870,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 83276,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 83683,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 84089,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 84495,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 84901,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 85308,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 85714,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 86120,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 86526,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 86932,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 87339,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 87745,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 88151,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 88557,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 88964,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 89370,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 89776,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 90182,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 90589,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 90995,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 91401,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 91807,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 92213,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 92620,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 93026,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 93432,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 93838,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 94245,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 94651,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 95057,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 95463,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 95870,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 96276,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 96682,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 97088,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 97494,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 97901,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 98307,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 98713,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 99119,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 99526,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 99932,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 100338,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 100744,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 101150,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 101557,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 101963,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 102369,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 102775,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 103182,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 103588,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 103994,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 104400,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 104807,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 105213,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 105619,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 106025,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 106431,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 106838,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 107244,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 107650,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 108056,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 108463,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 108869,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 109275,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 109681,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 110088,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 110494,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 110900,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 111306,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 111712,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 112119,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 112525,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 112931,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 113337,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 113744,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 114150,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 114556,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 114962,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 115368,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 115775,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 116181,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 116587,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 116993,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 117400,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 117806,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 118212,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 118618,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 119025,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 119431,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 119837,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 120243,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 120649,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 121056,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 121462,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 121868,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 122274,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 122681,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 123087,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 123493,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 123899,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 124306,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 124712,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 125118,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 125524,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 125930,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 126337,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 126743,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 127149,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 127555,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 127962,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 128368,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 128774,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 129180,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 129587,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 129993,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 130399,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 130805,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 131211,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 131618,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 132024,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 132430,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 132836,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 133243,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 133649,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 134055,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 134461,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 134867,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 135274,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 135680,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 136086,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 136492,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 136899,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 137305,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 137711,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 138117,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 138524,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 138930,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 139336,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 139742,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 140148,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 140555,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 140961,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 141367,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 141773,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 142180,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 142586,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 142992,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 143398,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 143805,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 144211,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 144617,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 145023,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 145429,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 145836,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 146242,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 146648,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 147054,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 147461,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 147867,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 148273,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 148679,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 149085,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 149492,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 149898,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 150304,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 150710,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 151117,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 151523,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 151929,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 152335,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 152742,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 153148,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 153554,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 155585,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 155991,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 156398,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 156804,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 157210,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 157616,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 158023,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 158429,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 158835,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 159241,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 159647,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 160054,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 160460,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 160866,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 161272,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 161679,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 162085,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 162491,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 162897,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 163303,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 163710,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 164116,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 164522,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 164928,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 165335,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 165741,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 166147,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 166553,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 166960,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 167366,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 167772,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 168178,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 168584,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 168991,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 169397,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 169803,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 170209,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 170616,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 171022,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 171428,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 171834,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 172241,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 172647,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 173053,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 173459,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 173865,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 174272,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 174678,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 175084,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 175490,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 175897,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 176303,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 176709,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 177115,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 177522,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 177928,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 178334,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 178740,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 179146,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 179553,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 179959,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 180365,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 180771,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 181178,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 181584,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 181990,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 182396,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 182802,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 183209,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 183615,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 184021,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 184427,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 184834,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 185240,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 185646,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 186052,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 186459,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 186865,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 187271,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 187677,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 188083,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 189302,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 189708,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 190115,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 193364,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 193771,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 194177,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 194583,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 194989,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 195396,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 195802,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 196208,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 196614,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 197020,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 197427,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 197833,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 198239,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 198645,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 199052,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 199458,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 199864,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 200270,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 200677,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 201083,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 201489,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 201895,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 202301,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 202708,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 203114,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 203520,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 203926,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 204333,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 204739,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 205145,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 205551,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 205958,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 206364,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 206770,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 207176,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 207582,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 207989,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 208395,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 208801,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 209207,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 209614,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 210020,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 210426,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 210832,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 211238,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 211645,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 212051,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 212457,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 212863,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 213270,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 213676,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 214082,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 214488,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 214895,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 215301,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 215707,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 216113,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 216519,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 216926,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 217332,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 217738,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 218144,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 218551,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 218957,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 219363,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 219769,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 220176,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 220582,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 220988,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 221394,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 221800,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 222207,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 222613,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 223019,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 223425,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 223832,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 224238,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 224644,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 225050,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 225457,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 225863,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 226269,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 226675,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 227081,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 227488,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 227894,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 228300,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 228706,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 229113,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 229519,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 229925,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 230331,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 230737,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 231144,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 231550,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 231956,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 232362,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 232769,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 233175,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 233581,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 233987,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 234394,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 234800,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 235206,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 235612,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 236018,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 236425,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 236831,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 237237,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 237643,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 238050,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 238456,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 238862,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 239268,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 239675,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 240081,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 240487,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 240893,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 241299,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 241706,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 242112,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 242518,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 242924,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 243331,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 243737,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 244143,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 244549,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 244955,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 245362,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 245768,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 246174,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 246580,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 246987,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 247393,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 247799,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 248205,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 248612,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 249018,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 249424,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 249830,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 250236,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 250643,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 251049,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 251455,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 251861,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 252268,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 252674,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 253080,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 253486,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 253893,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 254299,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 254705,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 255111,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 255517,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 255924,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 256330,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 256736,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 257142,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 257549,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 257955,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 258361,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 258767,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 264048,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 264454,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 264861,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 265267,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 265673,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 266079,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 266486,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 266892,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 267298,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 267704,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 268111,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 268517,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 268923,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 269329,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 269735,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 270142,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 270548,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 270954,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 271360,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 271767,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 272173,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 272579,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 272985,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 273392,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 273798,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 274204,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 274610,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 275016,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 275423,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 275829,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 276235,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 276641,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 277048,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 277454,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 277860,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 278266,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 278672,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 279079,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 279485,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 279891,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 280297,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 280704,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 281110,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 281516,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 281922,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 282329,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 282735,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 283141,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 283547,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 283953,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 284360,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 284766,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 285172,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 285578,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 285985,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 286391,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 286797,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 287203,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 287610,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 288016,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 288422,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 288828,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 289234,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 289641,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 290047,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 290453,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 290859,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 291266,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 291672,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 292078,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 292484,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 292890,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 293297,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 293703,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 294109,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 294515,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 294922,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 295328,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 295734,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 296140,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 296547,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 296953,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 297359,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 297765,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 298171,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 298578,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 298984,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 299390,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 299796,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 300203,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 300609,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 301015,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 301421,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 301828,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 302234,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 302640,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 303046,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 303452,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 303859,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 304265,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 304671,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 305077,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "yellow",
+      "startTime": 305484,
+      "duration": 406
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 305890,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 306296,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 306702,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 307109,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 307515,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 307921,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 308327,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 308733,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 309140,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 309546,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 309952,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 310358,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 310765,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 311171,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 311577,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "yellow",
+      "startTime": 311983,
+      "duration": 406
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 312389,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 312796,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 313202,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "yellow",
+      "startTime": 313608,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 314014,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 314421,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "blue",
+      "startTime": 314827,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "yellow",
+      "startTime": 315233,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 315639,
+      "duration": 0
+    },
+    {
+      "track": 2,
+      "color": "blue",
+      "startTime": 316046,
+      "duration": 0
+    },
+    {
+      "track": 1,
+      "color": "blue",
+      "startTime": 316452,
+      "duration": 0
+    },
+    {
+      "track": 3,
+      "color": "yellow",
+      "startTime": 316858,
+      "duration": 0
+    },
+    {
+      "track": 0,
+      "color": "blue",
+      "startTime": 317264,
+      "duration": 0
+    },
+    {
+      "track": 4,
+      "color": "blue",
+      "startTime": 317670,
+      "duration": 0
+    }
+  ]
+}

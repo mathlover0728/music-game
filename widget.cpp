@@ -10,6 +10,8 @@
 #include <QGraphicsDropShadowEffect>
 #include <QMessageBox>
 #include <QFileInfo>
+#include <QCoreApplication>
+#include <QDir>
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
@@ -139,7 +141,7 @@ void Widget::setupMenu()
     title->setAlignment(Qt::AlignCenter);
     layout->addWidget(title);
 
-    QLabel* subtitle = new QLabel("Import music, create charts, and play!");
+    QLabel* subtitle = new QLabel("Select a song, create charts, and play!");
     subtitle->setStyleSheet("color: #8888aa; font-size: 16px;");
     subtitle->setAlignment(Qt::AlignCenter);
     layout->addWidget(subtitle);
@@ -166,9 +168,20 @@ void Widget::setupMenu()
         return btn;
     };
 
-    QPushButton* btnImport = createMenuBtn("Import Music", "#3b5998");
-    connect(btnImport, &QPushButton::clicked, this, &Widget::onImportMusic);
-    layout->addWidget(btnImport, 0, Qt::AlignCenter);
+    QLabel* lblSelect = new QLabel("♫  Select a Built-in Song:");
+    lblSelect->setStyleSheet("color: #aaaacc; font-size: 14px; font-weight: bold;");
+    lblSelect->setAlignment(Qt::AlignCenter);
+    layout->addWidget(lblSelect);
+
+    QPushButton* btnSong1 = createMenuBtn("♫  毒", "#3b5998");
+    connect(btnSong1, &QPushButton::clicked, this, &Widget::onSelectSong1);
+    layout->addWidget(btnSong1, 0, Qt::AlignCenter);
+
+    QPushButton* btnSong2 = createMenuBtn("♫  花之舞", "#e67e22");
+    connect(btnSong2, &QPushButton::clicked, this, &Widget::onSelectSong2);
+    layout->addWidget(btnSong2, 0, Qt::AlignCenter);
+
+    layout->addSpacing(20);
 
     QPushButton* btnEditor = createMenuBtn("Chart Editor", "#8e44ad");
     connect(btnEditor, &QPushButton::clicked, this, &Widget::onOpenEditor);
@@ -187,23 +200,70 @@ void Widget::setupMenu()
     layout->addStretch();
 }
 
-void Widget::onImportMusic()
+QString Widget::getBuiltinMusicPath(int index) const
 {
-    QString path = QFileDialog::getOpenFileName(this, "Import Music",
-        QString(), "Audio Files (*.mp3 *.wav *.flac *.ogg);;All Files (*)");
-    if (!path.isEmpty()) {
-        m_musicPath = path;
-        m_titleLabel->setText(QString("🎹  Rhythm Game  —  %1").arg(QFileInfo(path).fileName()));
-        QMessageBox::information(this, "Music Imported",
-            QString("Imported: %1\nNow you can use the Chart Editor or Play Game.").arg(path));
+    QString fileName = (index == 0) ? "song1.wav" : "song2.wav";
+    QStringList searchDirs;
+
+    // 1) 可执行文件同目录下的 music 文件夹
+    searchDirs << QCoreApplication::applicationDirPath() + "/music";
+
+    // 2) Qt Creator 构建结构：向上回溯到项目根目录
+    QDir dir(QCoreApplication::applicationDirPath());
+    // 典型路径: .../build/Desktop_Qt_...-Debug/   -> 向上2层到项目根目录
+    if (dir.cdUp()) {
+        searchDirs << dir.absolutePath() + "/music";
+        if (dir.cdUp()) {
+            searchDirs << dir.absolutePath() + "/music";
+        }
     }
+
+    for (const QString& d : searchDirs) {
+        QString fullPath = d + "/" + fileName;
+        if (QFile::exists(fullPath)) {
+            return fullPath;
+        }
+    }
+
+    // 都找不到时返回第一个默认路径，让后面的检查触发错误提示
+    return searchDirs.first() + "/" + fileName;
+}
+
+void Widget::selectSong(int index)
+{
+    QString path = getBuiltinMusicPath(index);
+    QString songName = (index == 0) ? "毒" : "花之舞";
+
+    if (!QFile::exists(path)) {
+        QMessageBox::warning(this, "Music Not Found",
+            QString("Built-in music not found at:\n%1\n\n"
+                    "Please ensure the music files are placed in the 'music' folder "
+                    "next to the application executable.").arg(path));
+        return;
+    }
+
+    m_musicPath = path;
+    m_titleLabel->setText(QString("🎹  Rhythm Game  —  %1").arg(songName));
+    QMessageBox::information(this, "Song Selected",
+        QString("Selected: %1\nNow you can use Chart Editor or Play Game.").arg(songName));
+}
+
+void Widget::onSelectSong1()
+{
+    selectSong(0);
+}
+
+void Widget::onSelectSong2()
+{
+    selectSong(1);
 }
 
 void Widget::onOpenEditor()
 {
     if (m_musicPath.isEmpty()) {
-        QMessageBox::warning(this, "No Music", "Please import music first!");
-        return;
+        selectSong(0);
+        if (m_musicPath.isEmpty())
+            return;
     }
     m_editorScreen->loadMusic(m_musicPath);
     m_stack->setCurrentWidget(m_editorScreen);
@@ -212,8 +272,9 @@ void Widget::onOpenEditor()
 void Widget::onPlayGame()
 {
     if (m_musicPath.isEmpty()) {
-        QMessageBox::warning(this, "No Music", "Please import music first!");
-        return;
+        selectSong(0);
+        if (m_musicPath.isEmpty())
+            return;
     }
     // Try to load chart if exists
     QString chartPath = QFileInfo(m_musicPath).absolutePath() + "/" +

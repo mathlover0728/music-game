@@ -49,18 +49,14 @@ void GameWidget::loadGame(const QString& musicPath, const QString& chartPath)
     m_chart.clear();
     m_chart.musicFilePath = musicPath;
 
-    // Load chart if exists
+    // Load pre-designed chart (manual beatmap)
     if (!chartPath.isEmpty() && QFile::exists(chartPath)) {
         m_chart.loadFromFile(chartPath);
         m_chart.sortNotes();
     } else {
-        // Generate a simple auto-chart for demo if no chart exists
-        // This allows playing even without manual charting
-        QMessageBox::information(this, "No Chart Found",
-            "No chart file found for this song. A simple auto-generated chart will be used.\n"
-            "Use the Chart Editor to create a proper beatmap.");
-        generateAutoChart();
-        m_chart.sortNotes();
+        QMessageBox::warning(this, "No Chart Found",
+            "Chart file not found for this song.\n"
+            "Expected: " + chartPath);
     }
 
     m_player->setSource(QUrl::fromLocalFile(musicPath));

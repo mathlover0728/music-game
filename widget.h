@@ -22,7 +22,8 @@ protected:
     void mouseReleaseEvent(QMouseEvent *event) override;
 
 private slots:
-    void onImportMusic();
+    void onSelectSong1();
+    void onSelectSong2();
     void onOpenEditor();
     void onPlayGame();
     void onMinimize();
@@ -34,6 +35,8 @@ private:
     void setupUI();
     void setupTitleBar();
     void setupMenu();
+    QString getBuiltinMusicPath(int index) const;
+    void selectSong(int index);
 
     // Window dragging
     bool m_dragging = false;
@@ -51,7 +54,7 @@ private:
     GameWidget* m_gameScreen = nullptr;
     EditorWidget* m_editorScreen = nullptr;
 
-    // Current imported music
+    // Current selected music (built-in)
     QString m_musicPath;
 };
 
